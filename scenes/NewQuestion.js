@@ -121,6 +121,7 @@ const styles = StyleSheet.create({
 		textAlign: 'center',
 	},
 	iosSubmitBtn: {
+		backgroundColor: blue,
 		marginTop: 35,
 		padding: 10,
 		borderRadius: 7,

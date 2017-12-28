@@ -10,3 +10,6 @@ cd udacity-project-flashcards-app
 yarn install
 yarn start
 ```
+
+## Tested Platform
+This App was tested only in Android Devices.
