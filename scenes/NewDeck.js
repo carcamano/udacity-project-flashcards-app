@@ -32,7 +32,7 @@ class NewDeck extends Component {
 			);
 
 			this.setState({ title: '' });
-			navigation.navigate('Decks')
+			navigation.navigate('Deck', { title: `${title} Deck` })
 		}
 	};
 

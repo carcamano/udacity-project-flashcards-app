@@ -32,6 +32,7 @@ export function deck(state = {}, action) {
 	switch (action.type) {
 
 		case SET_CURRENT_DECK:
+		case ADD_DECK:
 			return {
 				...state,
 				...action.deck,
